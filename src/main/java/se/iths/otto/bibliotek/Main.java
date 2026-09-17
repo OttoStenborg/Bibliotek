@@ -1,7 +1,12 @@
 package se.iths.otto.bibliotek;
+
+
+
 public class Main {
     static void main() {
-        Logic run = new Logic();
+
+        LibraryService service = new LibraryService();
+        Meny run = new Meny(service);
         run.runProgram();
 
     }
