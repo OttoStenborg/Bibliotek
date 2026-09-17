@@ -1,7 +1,7 @@
 package se.iths.otto.bibliotek;
 
 
-public class Movie extends Media{
+public class Movie extends Media {
     private String director;
 
 
@@ -12,10 +12,10 @@ public class Movie extends Media{
 
 
     @Override
-    public void printInfo(){
-        IO.println(getTitle()+"\n"+
-        getYear()+"\n"+
-        getDirector());
+    public void printInfo() {
+        IO.println(getTitle() + "\n" +
+                getYear() + "\n" +
+                getDirector());
         IO.println(getClass());
     }
 

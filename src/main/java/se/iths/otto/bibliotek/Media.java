@@ -6,14 +6,15 @@ public abstract class Media {
     private boolean borrowed;
 
 
-    public void borrowMedia(){
+    public void borrowMedia() {
         this.borrowed = true;
     }
-    public void returnM(){
+
+    public void returnMedia() {
         this.borrowed = false;
     }
+
     public abstract void printInfo();
-    //public abstract void addMedia();
 
 
     public Media(String title, int year, boolean borrowed) {
